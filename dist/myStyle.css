@@ -31,7 +31,7 @@
     font-weight: 900;
 }
 
-.image img{
+ img{
     width: 600px;
     height: 250px;
 }
@@ -46,20 +46,35 @@
     position: absolute;
 }
 
+.a{
+    border: 0,5px solid #5a5a5a;
+    box-shadow: (1px, 1px, 1px, 3px);
+    border-radius: 25px;
+    background-color: aliceblue;
+    height: 25px;
+    width: fit-content;
+    
+}
+
 .container{
     display: grid;
     grid-template-columns: repeat(2, 2fr);
-
+    margin-bottom: 125px;
 }
 
+.settings{
+    margin-bottom: 50px;
+}
 .container2{
     display: block;
+    width: fit-content;
 }
 
 .weatherTable{
     font-family: Arial, Helvetica, sans-serif;
     text-align: center;
     margin-top: 100px;
+    margin-bottom: 50px;
     width: 40%;
     text-align: left;
     
